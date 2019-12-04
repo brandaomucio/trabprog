@@ -1,0 +1,76 @@
+{
+    "dados": {
+        "obra" : {
+            "equipe": { 
+                   "id":1,
+                   "nome":"TRIPLO X",
+                   "nom_empresa":{ 
+                      "id":1,
+                      "nom_empresa":"Paninfaria"
+                   },
+                   "funcionarios": [{
+                       "nome": "Carlos",
+                       "salario": "4300"}
+                    ]
+            },
+            "nom_empresa":{ 
+                "id":1,
+                "nom_empresa":"Paninfaria"
+            },
+            "valor": "10500",
+            "material": {
+                "nome_material":"Porcelanato",
+                "quantidade": "10 metros quadrados", 
+                "fornecedor":{
+                    "nom_fornecedor" : "Gustavo Bosco", 
+                    "tempo_entrega" : "6 dias"
+                }
+            }
+        },
+        "acabamento": {
+            "nome_space": "Área de Lazer",
+            "decoracao": "Estilo Industrial", 
+            "nom_empresa":{ 
+                "id":1,
+                "nom_empresa":"Paninfaria"
+            }
+        },
+        "maquinario": {
+            "nome_maq": "Trator",
+            "fornecedor_maq": {
+                "nom_fornecedor" : "Gustavo Bosco", 
+                "tempo_entrega" : "6 dias"                
+            }
+        },
+        "funcionario": {
+            "nome": "Carlos",
+            "salario": "4300"
+        },
+        "arquiteto": {
+            "nome": "Bruna",
+            "nom_empresa":{ 
+                "id":1,
+                "nom_empresa":"Paninfaria"
+            }
+        },
+        "engenheiro": {
+            "nome": "Tiago",
+            "nom_empresa":{ 
+                "id":1,
+                "nom_empresa":"Paninfaria"
+            }
+        },
+        "construtora": {
+            "nom_empresa": "Paninfaria",
+            "clientes": [{
+                "nome": "Múcio",
+                "CPF": "222333444-90"}
+            ]
+        },
+        "cliente": {
+            "nome": "Múcio",
+            "cpf": "222333444-90"
+        }      
+
+    }
+}
